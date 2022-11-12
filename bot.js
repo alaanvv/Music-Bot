@@ -11,4 +11,4 @@ bot.on('message', async msg => await commandHandler.handle(msg))
 const commandHandler = new CommandHandler()
 commandHandler.init(prefix)
 
-bot.login('OTY5MDcwNDc5NzY1ODE1Mjk2.Go0X8L.bA6MGeNGqtfZo96w7PCgJhuJXOipnfEuauwCl8')
+bot.login('TOKEN')
